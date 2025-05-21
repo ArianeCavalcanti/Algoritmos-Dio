@@ -53,20 +53,59 @@ Ao final deve se exibir uma mensagem:
 > `O Herói tem de saldo de **{saldoVitorias}** está no nível de **{nivel}**`
 
 ---
+
+### 🥉 [Desafio 3 - Escrevendo as classes de um Jogo](./desafio-3)
+> Crie uma classe genérica que represente um herói de uma aventura com métodos e atributos adequados.
+
+- 🧠 Conceitos usados: 📝 Variáveis, ➕ Operadores, 🔄 Laço de repetição, ❔ Estrutura de decisão, 🔧 Funções, 🏹 Classes e Objetos
+
+## 🎯 Objetivo
+
+Crie uma classe genérica que represente um **herói** e que possua as seguintes propriedades:
+
+- `nome`
+- `idade`
+- `tipo` (ex: **guerreiro, mago, monge, ninja**)
+
+Além disso, deve conter um método chamado `atacar`, que deve atender aos seguintes requisitos:
+
+- Exibir a mensagem: **"O {tipo} atacou usando {ataque}"**
+- O `{tipo}` deve ser o mesmo da propriedade do objeto.
+- O `{ataque}` deve mudar conforme o tipo do herói, conforme a tabela abaixo:
+
+| Tipo      | Ataque                  |
+|-----------|-------------------------|
+| **Mago**    | Usou magia             |
+| **Guerreiro** | Usou espada         |
+| **Monge**    | Usou artes marciais   |
+| **Ninja**    | Usou shuriken         |
+
+## 🖥️ Saída Esperada
+
+Ao final, deve ser exibida uma mensagem conforme o tipo do herói:
+
+> `O {tipo} atacou usando {ataque}`  
+> Exemplo:  
+> - **Mago** atacou usando **magia**  
+> - **Guerreiro** atacou usando **espada**
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 - 💻 [Visual Studio Code](https://code.visualstudio.com/)
-- 🔥 JavaScript - Linguagem de programação utilizada
+- 🔥 **JavaScript** - Linguagem de programação utilizada
 - 🚀 [Node.js](https://nodejs.org/)
 
 ---
 
-## 📦 Como Executar os Desafios
+## 📦 Como Executar o Desafio
 
 1. Instale o [Node.js](https://nodejs.org/)
 2. Clone este repositório:
    ```bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
+
 
 
 
